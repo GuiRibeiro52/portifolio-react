@@ -112,9 +112,9 @@ const Home = () => {
                 <h3 className="text-gray600 text-title-md font-asap font-bold">Gostou do meu trabalho?</h3>
                 <p className="text-gray500 text-text-md font-maven">Entre em contato ou acompanhe as minhas redes sociais!</p>
             </div>
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-6 w-[400px] mx-auto">
                 <Link to='https://api.whatsapp.com/send?phone=5516994664262'>
-                    <div className="flex items-center justify-between p-5 bg-gray300 rounded-lg w-[400px] h-[68px] mx-auto">
+                    <div className="flex items-center justify-between p-5 bg-gray300 rounded-lg w-[400px] h-[68px]">
                         <div className="flex items-center justify-center gap-3">
                             <img src="/src/assets/icons/whatsapp-logo.svg" alt="WhatsApp"/>
                             <p className="text-gray500 font-maven text-base">WhatsApp</p>
