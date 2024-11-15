@@ -1,4 +1,15 @@
 import { Link } from "react-router-dom"
+import arrow from '../assets/icons/ArrowUpRight.svg'
+import envelope from '../assets/icons/EnvelopeSimple.svg'
+import github from '../assets/icons/GithubLogo.svg'
+import instagram from '../assets/icons/InstagramLogo.svg'
+import linkedin from '../assets/icons/LinkedinLogo.svg'
+import whats from '../assets/icons/whatsapp-logo.svg'
+import brasfal from '../assets/images/brasfal.png'
+import compass from '../assets/images/compassVideo.png'
+import forever from '../assets/images/ForeverHomes.png'
+import furniro from '../assets/images/furniro.png'
+import guilherme from '../assets/GuilhermeRibeiro.png'
 
 
 const Home = () => {
@@ -17,7 +28,7 @@ const Home = () => {
             </p>
         </div>
         <div className="flex justify-center w-full max-w-[200px] sm:max-w-[250px] md:max-w-[300px] xl:max-w-[350px]">
-            <img className="rounded-[30px] w-full" src="/src/assets/GuilhermeRibeiro.png" alt="Guilherme Ribeiro" />
+            <img className="rounded-[30px] w-full" src={guilherme} alt="Guilherme Ribeiro" />
         </div>
     </div>
 
@@ -29,7 +40,7 @@ const Home = () => {
         <div className="flex flex-col items-center justify-center mx-auto px-2 lg:grid xl:grid-cols-2 gap-6 xl:w-[1040px] h-auto ">
             <div className="w-[300px] md:w-[508px] md:h-[180px] bg-gray300 p-3 rounded-lg md:flex md:justify-between">
                 <div>
-                    <Link to='https://guiribeiro52.github.io/Furniro/'><img src="/src/assets/images/furniro.png" alt="Furniro" className="rounded-lg md:w-[224px] h-[156px] object-cover" /></Link>
+                        <Link to='https://guiribeiro52.github.io/Furniro/'><img src={furniro} alt="Furniro" className="rounded-lg md:w-[224px] h-[156px] object-cover" /></Link>
                 </div>
                 <div className="flex flex-col gap-3 md:w-[244px] mt-1 justify-around">
                     <div className="flex flex-col gap-2">
@@ -46,7 +57,7 @@ const Home = () => {
             </div>            
             <div className="w-[300px] md:w-[508px] md:h-[180px] bg-gray300 p-3 rounded-lg md:flex md:justify-between">
                 <div>
-                    <img src="/src/assets/images/compassVideo.png" alt="Compass Video" className="rounded-lg md:w-[224px] h-[156px] object-cover" />
+                    <img src={compass} alt="Compass Video" className="rounded-lg md:w-[224px] h-[156px] object-cover" />
                 </div>
                 <div className="flex flex-col gap-3 md:w-[244px] mt-1 justify-around">
                     <div className="flex flex-col gap-2">
@@ -63,7 +74,7 @@ const Home = () => {
             </div>            
             <div className="w-[300px] md:w-[508px] md:h-[180px] bg-gray300 p-3 rounded-lg md:flex md:justify-between">
                 <div>
-                    <img src="/src/assets/images/ForeverHomes.png" alt="forever homes" className="rounded-lg md:w-[224px] h-[156px] object-cover" />
+                    <img src={forever} alt="forever homes" className="rounded-lg md:w-[224px] h-[156px] object-cover" />
                 </div>
                 <div className="flex flex-col gap-3 md:w-[244px] mt-1 justify-around">
                     <div className="flex flex-col gap-2">
@@ -80,7 +91,7 @@ const Home = () => {
             </div>            
             <div className="w-[300px] md:w-[508px] md:h-[180px] bg-gray300 p-3 rounded-lg md:flex md:justify-between">
                 <div>
-                    <Link to='https://guiribeiro52.github.io/Brasfal/'><img src="/src/assets/images/brasfal.png" alt="brasfal" className="rounded-lg md:w-[224px] h-[156px] object-cover"/></Link>
+                    <Link to='https://guiribeiro52.github.io/Brasfal/'><img src={brasfal} alt="brasfal" className="rounded-lg md:w-[224px] h-[156px] object-cover"/></Link>
                 </div>
                 <div className="flex flex-col gap-3 md:w-[244px] mt-1 justify-around">
                     <div className="flex flex-col gap-2">
@@ -108,55 +119,55 @@ const Home = () => {
                 <Link to='https://api.whatsapp.com/send?phone=5516994664262'>
                     <div className="flex items-center justify-between p-5 bg-gray300 rounded-lg w-[300px] sm:w-[400px] h-[68px] mx-auto">
                         <div className="flex items-center justify-center gap-3">
-                            <img src="/src/assets/icons/whatsapp-logo.svg" alt="WhatsApp"/>
+                            <img src={whats} alt="WhatsApp"/>
                             <p className="text-gray500 font-maven text-base">WhatsApp</p>
                         </div>
                         <div>
-                            <img src="/src/assets/icons/ArrowUpRight.svg" alt="arrow up" />
+                            <img src={arrow} alt="arrow up" />
                         </div>
                     </div>
                 </Link>
                 <Link to='https://www.linkedin.com/in/guilherme-ribeiro52/'>
                     <div className="flex items-center justify-between p-5 bg-gray300 rounded-lg w-[300px] sm:w-[400px] h-[68px] mx-auto">
                         <div className="flex items-center justify-center gap-3">
-                            <img src="/src/assets/icons/LinkedinLogo.svg" alt="Linkedin"/>
+                            <img src={linkedin} alt="Linkedin"/>
                             <p className="text-gray500 font-maven text-base">Linkedin</p>
                         </div>
                         <div>
-                            <img src="/src/assets/icons/ArrowUpRight.svg" alt="arrow up" />
+                            <img src={arrow} alt="arrow up" />
                         </div>
                     </div>
                 </Link>
                 <Link to='https://www.instagram.com/guilhermeribeiroo/'>
                     <div className="flex items-center justify-between p-5 bg-gray300 rounded-lg w-[300px] sm:w-[400px] h-[68px] mx-auto">
                         <div className="flex items-center justify-center gap-3">
-                            <img src="/src/assets/icons/InstagramLogo.svg" alt="Instagram"/>
+                            <img src={instagram} alt="Instagram"/>
                             <p className="text-gray500 font-maven text-base">Instagram</p>
                         </div>
                         <div>
-                            <img src="/src/assets/icons/ArrowUpRight.svg" alt="arrow up" />
+                            <img src={arrow} alt="arrow up" />
                         </div>
                     </div>
                 </Link>       
                 <Link to='https://github.com/GuiRibeiro52'>
                     <div className="flex items-center justify-between p-5 bg-gray300 rounded-lg w-[300px] sm:w-[400px] h-[68px] mx-auto">
                         <div className="flex items-center justify-center gap-3">
-                            <img src="/src/assets/icons/GithubLogo.svg" alt="GitHub"/>
+                            <img src={github} alt="GitHub"/>
                             <p className="text-gray500 font-maven text-base">GitHub</p>
                         </div>
                         <div>
-                            <img src="/src/assets/icons/ArrowUpRight.svg" alt="arrow up" />
+                            <img src={arrow} alt="arrow up" />
                         </div>
                     </div>
                 </Link>
                 <Link>
                     <div className="flex items-center justify-between p-5 bg-gray300 rounded-lg w-[300px] sm:w-[400px] h-[68px] mx-auto">
                         <div className="flex items-center justify-center gap-3">
-                            <img src="/src/assets/icons/EnvelopeSimple.svg" alt="Email"/>
+                            <img src={envelope} alt="Email"/>
                             <p className="text-gray500 font-maven text-base">Email</p>
                         </div>
                         <div>
-                            <img src="/src/assets/icons/ArrowUpRight.svg" alt="arrow up" />
+                            <img src={arrow} alt="arrow up" />
                         </div>
                     </div>
                 </Link>                
