@@ -91,7 +91,7 @@ const Home = () => {
             </div>            
             <div className="w-[300px] md:w-[508px] md:h-[180px] bg-gray300 p-3 rounded-lg md:flex md:justify-between">
                 <div>
-                    <Link to='https://guiribeiro52.github.io/Brasfal/'><img src={brasfal} alt="brasfal" className="rounded-lg md:w-[224px] h-[156px] object-cover"/></Link>
+                    <Link to='https://brasfal.com.br'><img src={brasfal} alt="brasfal" className="rounded-lg md:w-[224px] h-[156px] object-cover"/></Link>
                 </div>
                 <div className="flex flex-col gap-3 md:w-[244px] mt-1 justify-around">
                     <div className="flex flex-col gap-2">
