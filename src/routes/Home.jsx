@@ -57,15 +57,15 @@ const Home = () => {
             </div>            
             <div className="w-[300px] md:w-[508px] md:h-[180px] bg-gray300 p-3 rounded-lg md:flex md:justify-between">
                 <div>
-                    <img src={compass} alt="Compass Video" className="rounded-lg md:w-[224px] h-[156px] object-cover" />
+                    <Link to='https://hbo-max-clone-seven.vercel.app/'><img src={compass} alt="GR Max Plus" className="rounded-lg md:w-[224px] h-[156px] object-cover" /></Link>
                 </div>
                 <div className="flex flex-col gap-3 md:w-[244px] mt-1 justify-around">
                     <div className="flex flex-col gap-2">
-                        <h3 className="text-gray100 text-title-sm font-asap font-bold">Compass Video</h3>
-                        <p className="text-text-sm text-gray500 text-left font-maven">Um Streaming com os melhores filmes, séries, programas de TV da atualidade.</p>
+                        <h3 className="text-gray100 text-title-sm font-asap font-bold">GR MAX PLUS</h3>
+                        <p className="text-text-sm text-gray500 text-left font-maven">Um catálogo com os melhores filmes, séries, programas de TV da atualidade.</p>
                     </div>                
                     <div className="flex text-gray100 font-bold font-inconsolata text-tag-sm justify-between md:justify-evenly">
-                        <p className="bg-green px-[12px] py-[4px] rounded-full"><Link to='https://github.com/Denilson-B-Sousa/compass-video-frontend'>GitHub</Link></p>                        
+                        <p className="bg-green px-[12px] py-[4px] rounded-full"><Link to='https://github.com/GuiRibeiro52/hbo-max-clone'>GitHub</Link></p>                        
                         <p className="bg-purple px-[12px] py-[4px] rounded-full">React</p>
                         <p className="bg-blue px-[12px] py-[4px] rounded-full">HTML</p>
                         <p className="bg-red px-[12px] py-[4px] rounded-full">CSS</p>                        
@@ -74,7 +74,7 @@ const Home = () => {
             </div>            
             <div className="w-[300px] md:w-[508px] md:h-[180px] bg-gray300 p-3 rounded-lg md:flex md:justify-between">
                 <div>
-                    <img src={forever} alt="forever homes" className="rounded-lg md:w-[224px] h-[156px] object-cover" />
+                    <Link to='https://guiribeiro52.github.io/Forever-Homes/'><img src={forever} alt="forever homes" className="rounded-lg md:w-[224px] h-[156px] object-cover" /></Link>
                 </div>
                 <div className="flex flex-col gap-3 md:w-[244px] mt-1 justify-around">
                     <div className="flex flex-col gap-2">
